@@ -1,0 +1,59 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\froman\fcharset0 Times-Bold;\f2\froman\fcharset0 Times-Roman;
+}
+{\colortbl;\red255\green255\blue255;\red51\green51\blue51;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c26275\c26275\c26275;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid101\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid102\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa106\partightenfactor0
+
+\f0\fs37\fsmilli18667 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Additions (New Features)
+\f1\b\fs28 \cf0 \strokec3 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f0\b0\fs29\fsmilli14667 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Ego Vehicle Reference: Add a subtle 3D model, wireframe, or simply a directional marker (like a triangle) at the origin (0,0,0) in both visualizers. This grounds the perspective and helps the user immediately understand where the car is relative to the points.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Spatial Context (Axes & Scale):\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 In the 3D Orbit view, add a small, colored XYZ axis compass in the corner so users don't lose their orientation when rotating the camera.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 In the 2.5D Top view, add a scale bar (e.g., a line representing 10 meters) in the corner so users can visually estimate distances.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Step-by-Step Playback Controls: Since this is a continuous video sequence (and especially since you are doing 25-frame jumps for testing), you should add "Next Frame" and "Previous Frame" (or Next/Prev Jump) buttons next to the Play button. Debugging often requires looking at data frame-by-frame rather than playing it as a smooth video.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Interactive Filtering via the Legend: Make the Semantic Key at the bottom interactive. If a user clicks on "Road", it should toggle the road points off/on in the visualizers. Hiding background classes like roads or buildings is crucial when debugging smaller objects like pedestrians or poles.\
+\pard\pardeftab720\sa106\partightenfactor0
+
+\fs37\fsmilli18667 \cf2 \strokec2 Corrections & Refinements
+\f1\b\fs28 \cf0 \strokec3 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0
+\f0\b0\fs29\fsmilli14667 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Bar Chart Readability: The "Cell Resolution" bar graph is a great addition, but the y-axis labels (10K, 2.5K) are just floating on the left.\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls2\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Fix: Add faint horizontal grid lines extending from the y-axis labels across the chart.\
+\ls2\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Alternative: Display the exact numerical value hovering above each bar (e.g., 12.4K above the first bar) so the user doesn't have to guess based on the axis.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Frame Counter Clarity: The timeline shows 001900\'a0 11 / 40. It's a bit ambiguous if 001900 is the timestamp, the absolute dataset frame ID, or something else.\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls2\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Fix: Add small labels, for example: ID: 001900 | SEQ: 11/40 to make it instantly clear what those numbers mean.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Placeholder Classes: Currently, the semantic key ends with "Class 6" through "Class 17". Assuming this is just for the mockup, make sure to replace these with the actual semantic labels (e.g., Building, Fence, Traffic Light, Bicycle, Sidewalk) once the real data pipeline is connected.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Sync Views Option: Consider adding a small "Link" or "Sync" icon between the two viewports. When enabled, panning (moving left/right/up/down) in the left view automatically pans the right view to match the exact same location, making comparison easier.\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs24 \cf0 \
+}
